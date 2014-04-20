@@ -1,4 +1,4 @@
 Frontier-Element
 ================
 
-Boilerplate plugin for creating Frontier Elements
+Example plugin for creating Frontier Elements
