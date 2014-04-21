@@ -16,7 +16,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 // Add our element to the list of available elements
-add_filter('frontier_get_element_types', 'my_frontier_element');
+add_filter('pods_frontier_get_element_types', 'my_frontier_element');
 
 // add the headers action function
 /*
@@ -61,8 +61,8 @@ function my_frontier_element($elements){
 	$path = plugin_dir_path(__FILE__);
 
 	// add out elements processors in
-	add_action('frontier_element_headers-my_frontier_element', 'my_element_headers');
-	add_filter('frontier_render_element-my_frontier_element', 'my_element_renderer', 10, 4);		
+	add_action('pods_frontier_element_headers-my_frontier_element', 'my_element_headers');
+	add_filter('pods_frontier_render_element-my_frontier_element', 'my_element_renderer', 10, 4);		
 
 
 
