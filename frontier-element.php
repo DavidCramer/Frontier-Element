@@ -82,6 +82,7 @@ function my_frontier_element($elements){
 					"first_tab" => array(
 						"name" => "First Tab",
 						"label" => "Heading of the first tab",
+						"active" => true, // Set this tab as the default active tab
 						"actions" => array(), // additional file actions can be included - mainly buttons - still working on it.						
 						"canvas" => $path . "ui/my-element-canvas.php", // specify a path to a file to load as the main ui
 						"side_panel" => $path . "ui/my-element-side.php", // specify a path to a file to load as the side bar ui (optional)
